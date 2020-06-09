@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboard_app/carousel_pages.dart';
 import 'package:onboard_app/login.dart';
 import 'package:onboard_app/onboard.dart';
 import 'package:onboard_app/splash.dart';
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
 //            bloc: UserBloc()
 //        )
       },
-      home: SplashPage(),
+      home: CarouselPage(),
     );
   }
 }
